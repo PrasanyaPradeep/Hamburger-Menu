@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.not-found-main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 90%;
+  max-width: 1110px;
+}
+
+.not-found-image {
+  width: 328px;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-image {
+    width: 475px;
+  }
+}
+
+.not-found-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #000000;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-heading {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.22;
+  }
+}
+
+.text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 1.75;
+  color: #616e7c;
+  margin-top: 12px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .text {
+    font-size: 16px;
+  }
+}

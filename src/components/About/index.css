@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  margin-top: 6px;
+}
+
+.about-small-device {
+  width: 80%;
+  max-width: 468px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-small-device {
+    display: none;
+  }
+}
+
+.about-large-device {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .about-large-device {
+    display: flex;
+    width: 100%;
+    max-width: 1110px;
+  }
+}
